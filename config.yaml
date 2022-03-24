@@ -9,20 +9,21 @@ properties:
     type: string
     format: uri
     description: The URL of the site to start scraping
-    default: https://www.ssa.gov/foia/readingroom.html
+    default: http://hobokennj.iqm2.com/Citizens/Board/1000-City-Council
   project:
     type: number
     description: >-
       The DocumentCloud project ID of the project the documents should be uploaded in to
-    default: 207338
+    default: 207398
   keywords:
     type: array
     items:
       type: string
     description: Keywords to search and notify on
     default:
-      - court
-      - foia
+      - redevelopment
+      - "schedule of classifications"
+      - water
   filetypes:
     type: array
     items:
